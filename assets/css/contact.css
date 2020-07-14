@@ -5,9 +5,6 @@
   overflow-x: hidden;
 }
 
-a:hover {
-    color: rgba(0,0,0,.5);
-}
 
 .header-btn {
   background-color: #00aeff;
@@ -47,6 +44,12 @@ p {
 
 .footer h5 {
     font-family: 'Lato', sans-serif;
+}
+
+
+.footer ul li a:hover {
+    color: rgba(0,0,0,.5);
+    text-decoration: none;
 }
 
 .input-group .form-control {
