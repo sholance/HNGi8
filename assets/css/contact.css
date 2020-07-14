@@ -5,6 +5,10 @@
   overflow-x: hidden;
 }
 
+a:hover {
+    color: rgba(0,0,0,.5);
+}
+
 .header-btn {
   background-color: #00aeff;
   border-radius: 5px;
