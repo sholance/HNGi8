@@ -421,3 +421,8 @@ p {
   line-height: 67px;
 }
 }
+@media (max-width: 600px) {
+  .no-desktop{
+    visibility: visible;
+  }
+}
