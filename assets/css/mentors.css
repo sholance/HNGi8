@@ -354,10 +354,13 @@ img.hover-shadow {
 }
 @media only screen and (max-width: 700px) {
   .ment-img {
-    visibility:hidden;
+    width: 100%;
   }
   .img-mobile{
     visibility: visible !important;
+  }
+  .ment-container {
+    width: 100%;
   }
 }
 
