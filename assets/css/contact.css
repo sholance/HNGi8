@@ -79,4 +79,8 @@ p {
     font-size: 48px;
     line-height: 67px;
   }
+
+  .contact-address {
+    padding-left: 5rem !important;
+  }
 }
