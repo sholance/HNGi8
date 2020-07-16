@@ -15,6 +15,14 @@
     font-weight: 600;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #333333;
+}
+
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+color: #00AEFF;
+}
+
 p {
   font-size: 14px;
   line-height: 20px;
