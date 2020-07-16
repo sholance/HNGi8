@@ -10,6 +10,10 @@
     color: #333333;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #00AEFF;
+}
+
 .navbar-light .navbar-nav .nav-item.active .nav-link {
 color: #00AEFF;
 }
