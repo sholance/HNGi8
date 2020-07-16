@@ -14,9 +14,6 @@ header p{
     width: 325px;
     font-weight: normal;
 }
-#success_message { 
-    display: none;
-}
 /* countdown */
 :root {
 	--color-grey-dark: #323031;
@@ -180,7 +177,12 @@ fieldset {
 .countdown span:first-of-type {
     margin-left: 0;
 }
-
+.reg-text {
+	text-align: center;
+	font-size: 1.3rem;
+	margin: auto;
+	margin-bottom: .7rem;
+}
 .countdown-circles {
     text-transform: uppercase;
     font-weight: bold;
