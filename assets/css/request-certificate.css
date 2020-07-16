@@ -12,13 +12,13 @@ p {
 }
 
 button {
-    outline: none;
+  outline: none;
 }
 
 .modal-content {
-    background: transparent;
-    border: 0;
-    outline: none;
+  background: transparent;
+  border: 0;
+  outline: none;
 }
 
 .certificate-text {
@@ -60,17 +60,17 @@ button {
 }
 
 .box {
-    background: url('../images/Rectangle\ 9.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+  background: url("../images/Rectangle\ 9.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .content-overlay {
-    background: rgba(36, 17, 106, 0.87);
+  background: rgba(36, 17, 106, 0.87);
 }
 
 .content-overlay .input-group {
-    width: 386px;
+  width: 386px;
 }
 
 .footer {
@@ -97,31 +97,34 @@ button {
   border-bottom-right-radius: 5px;
 }
 
-
 @media (min-width: 768px) {
-    .box {
-        background: url('../images/Rectangle\ 7.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+  .navbar-brand {
+    padding-left: 5rem !important;
+  }
 
-    p {
-        font-size: 16px;
-        line-height: 22px;
-      }
+  .box {
+    background: url("../images/Rectangle\ 7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
-      .cert-content {
-        font-size: 24px;
-        line-height: 34px;
-      }
+  p {
+    font-size: 16px;
+    line-height: 22px;
+  }
 
-      .sponsors {
-        padding-left: 5rem !important;
-        padding-right: 5rem !important;
-      }
+  .cert-content {
+    font-size: 24px;
+    line-height: 34px;
+  }
 
-      .certified-doc {
-        padding-left: 5rem !important;
-        padding-right: 5rem !important;
-      }
+  .sponsors {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+  }
+
+  .certified-doc {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+  }
 }
