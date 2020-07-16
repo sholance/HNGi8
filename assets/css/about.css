@@ -5,6 +5,7 @@
   overflow-x: hidden;
 }
 
+
 .navbar-light .navbar-nav .nav-link {
     color: #333333;
 }
@@ -12,6 +13,7 @@
 .navbar-light .navbar-nav .nav-item.active .nav-link {
 color: #00AEFF;
 }
+
 p {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -83,6 +85,10 @@ height: 131px;
 }
 
 @media (min-width: 768px) {
+.navbar-brand {
+  padding-left: 5rem !important;
+}
+
   .box {
     background: url("../images/underlay.png");
     background-size: cover;
@@ -105,5 +111,10 @@ height: 131px;
 
   .content-overlay .fa {
       font-size: 24px;
+  }
+
+  .learning-rate {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
   }
 }
