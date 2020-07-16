@@ -53,17 +53,13 @@
         <div class="header-content mx-auto">
           <h1 class="mb-5 ment-h1">Become a HNGi8 intern</h1>
           <p class="mb-5 ment-p">Complete the form below to begin your journey as an Intern.</p>
-
+        </div>
+      </div>
           <div class="col-lg-5 my-auto">
-            <div class="time-container ">
               <div class="countdown-wrapper">
-                <p>March 31, 2021</p>
                 <div id="countdown">
                 </div>
-              </div>
-            
-              </div>
-            </div>
+        
 
           </div>
           </div>
@@ -235,13 +231,42 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   <script> 
-  $('#clock').countdown('2021/1/10').on('update.countdown', function(event) {
-      var $this = $(this).html(event.strftime(''
-        + '<span class="h1 font-weight-bold">%D</span> Day%!d'
-        + '<span class="h1 font-weight-bold">%H</span> Hr'
-        + '<span class="h1 font-weight-bold">%M</span> Min'
-        + '<span class="h1 font-weight-bold">%S</span> Sec'));
-    });
+let end = new Date(Date.UTC(2021, 11, 31, 30, 59, 59)); 
+
+const second = 1000;
+const minute = second * 60;
+const hour = minute * 60;
+const day = hour * 24;
+
+function timeLeft() {
+  let now = new Date();
+  let utc = new Date(now.getTime() + now.getTimezoneOffset());
+  let distance = end - utc;
+  let countdownWrapper = document.getElementById('countdown');
+  if (distance <  0)
+  {
+    clearInterval(timer);
+    countdownWrapper.innerHTML = "<p>" + "<span id='days'>" + '0' + "</span>" +  "<span id='days-text'>" + 'days' + "</span>" + "</p>";
+    countdownWrapper.innerHTML += "<p>" + "<span id='hours'>" + '0'+ "</span>" +  "<span id='hours-text'>" + 'hours' + "</span>" + "</p>";
+    countdownWrapper.innerHTML += "<p>" + "<span id='minutes'>" + '0' + "</span>" +  "<span id='minutes-text'>" + 'minutes' + "</span>" + "</p>";
+    countdownWrapper.innerHTML += "<p>" + "<span id='seconds'>" + '0' + "</span>" +  "<span id='seconds-text'>" + 'seconds' + "</span>" + "</p>";
+    return;
+  }
+  let days = Math.floor(distance / day);
+  let hours = Math.floor((distance % day) / hour);
+  let minutes = Math.floor((distance % hour) / minute);
+  let seconds = Math.floor((distance % minute) / second);
+
+  countdownWrapper.innerHTML = "<p>" + "<span id='days'>" + days + "</span>" +  "<span id='days-text'>" + 'days' + "</span>" + "</p>";
+  countdownWrapper.innerHTML += "<p>" + "<span id='hours'>" + hours + "</span>" +  "<span id='hours-text'>" + 'hours' + "</span>" + "</p>";
+  countdownWrapper.innerHTML += "<p>" + "<span id='minutes'>" + minutes + "</span>" +  "<span id='minutes-text'>" + 'minutes' + "</span>" + "</p>";
+  countdownWrapper.innerHTML += "<p>" + "<span id='seconds'>" + seconds + "</span>" +  "<span id='seconds-text'>" + 'seconds' + "</span>" + "</p>";
+}
+
+// Update every second (1000ms)
+let timer = setInterval(timeLeft, 1000);
+// let DOM load before script runs
+window.addEventListener("load", timeLeft);
 </script>
 
 </body>
