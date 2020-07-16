@@ -304,6 +304,7 @@ img.hover-shadow {
 .person-title {
   color: white;
   font-size: 2em;
+  color: #084482;
 }
 .person-desc {
   color: rgba(255, 255, 255, 0.2);
@@ -311,6 +312,7 @@ img.hover-shadow {
   text-transform: uppercase;
   font-size: 0.8em;
   letter-spacing: 2px;
+  color: #084482;
 }
 .person-list {
   display: flex;
@@ -453,6 +455,10 @@ img.hover-shadow {
 }
 .team-detail-right .person-title {
   font-size: 2.2em;
+  color: #fff;
+}
+.team-detail-right .person-desc {
+  color: white;
 }
 
 .container-ready .team-detail {
@@ -512,14 +518,17 @@ img.hover-shadow {
   .team-detail-right {
     padding-right: 0;
     width: calc(100% - 440px);
+    background: black;
   }
 
   .person .person-title {
     font-size: 1.7em;
+    color: #084482;
   }
 
   .person-details {
     padding: 0 10px;
+    color: #084482;
   }
 }
 @media (max-width: 970px) {
