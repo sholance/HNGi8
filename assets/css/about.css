@@ -100,6 +100,11 @@ height: 131px;
     line-height: 22px;
   }
 
+  .main-about {
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
+  }
+
   .about-content {
     font-size: 36px;
     line-height: 50px;
