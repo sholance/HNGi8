@@ -39,6 +39,10 @@ button {
   color: #333333;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #00aeff;
+}
+
 .navbar-light .navbar-nav .nav-item.active .nav-link {
   color: #00aeff;
 }
