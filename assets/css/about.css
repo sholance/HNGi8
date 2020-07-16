@@ -42,6 +42,11 @@ p {
   background-repeat: no-repeat;
 }
 
+.img-about {
+    width: 180.7px;
+height: 102.77px;
+}
+
 .content-overlay {
   background: rgba(36, 17, 106, 0.87);
 }
