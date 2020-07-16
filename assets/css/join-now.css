@@ -28,7 +28,7 @@ header p{
   .countdown-wrapper {
 	padding: 2rem 0;
 	text-align: center;
-	width: 100%;
+	width: 80%;
 	color: (--var-color-grey-dark);
   }
   #countdown {
@@ -65,7 +65,7 @@ header p{
   }
   @media only screen and (max-width: 43.75em) { /* 700px */
   #countdown p {
-	flex: 0 0 50%;
+	flex: 0 0 0%;
   }
   #countdown {
 	  font-size: 1.5rem;
@@ -73,7 +73,7 @@ header p{
   }
 
 .f-container {
-	max-width: 550px;
+	max-width: 350px;
 	width:100%;
 	margin:0 auto;
 	position:relative;
