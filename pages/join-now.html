@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Skills Test</title>
+  <title>Register</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
   <link rel="stylesheet" href="../assets/css/join-now.css">
@@ -84,7 +84,7 @@
         <label class="col-md-4 control-label">E-Mail</label>  
           <div class="input-group">
               <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-        <input name="email" placeholder="" class="form-control"  type="text">
+        <input name="email" placeholder="" class="form-control"  type="text"required>
           </div>
         </div>    
       </fieldset>
@@ -93,7 +93,7 @@
         <label class="col-md-4 control-label">Phone #</label>  
           <div class="input-group">
               <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-        <input name="phone" placeholder="" class="form-control" type="text">
+        <input name="phone" placeholder="" class="form-control" type="text"required>
           </div>
         </div>    
       </fieldset>
@@ -102,7 +102,7 @@
         <label class="col-md-4 control-label">Gender</label>
           <div class="input-group">
               <span class="input-group-addon"><i class="glyphicon glyphicon-hand-right"></i></span>
-          <select name="gender" class="form-control selectpicker" >
+          <select name="gender" class="form-control selectpicker" required>
             <option value=" " >Select your gender</option>
             <option> Male</option>
             <option >Female</option>
@@ -119,7 +119,7 @@
     <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-hand-right"></i></span>
   <div id="date-picker-example" class="md-form md-outline input-with-post-icon datepicker">
-  <input placeholder="Select date" type="text" id="example" class="form-control">
+  <input placeholder="Select date" type="text" id="example" class="form-control"required>
   
   <i class="fas fa-calendar input-prefix" tabindex=0></i>
   </div>
@@ -134,7 +134,7 @@
         <label class="col-md-4 control-label">Location</label>  
           <div class="input-group">
               <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-        <input name="address" placeholder="" class="form-control" type="text">
+        <input name="address" placeholder="" class="form-control" type="text"required>
           </div>
         </div>   
        </fieldset>
@@ -143,7 +143,7 @@
         <label class="col-md-4 control-label">Select track</label>
           <div class="input-group">
               <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
-          <select name="state" class="form-control selectpicker" >
+          <select name="state" class="form-control selectpicker" required>
             <option value=" " >Please select your track</option>
             <option>Frontend</option>
             <option>Backend</option>
@@ -158,7 +158,7 @@
         <label class="col-md-4 control-label">Tell us about Yourself</label>
           <div class="input-group">
               <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-                <textarea class="form-control" name="comment" placeholder=""></textarea>
+                <textarea class="form-control" name="comment" placeholder="" required></textarea>
         </div>
         </div>
             </fieldset>
