@@ -14,6 +14,13 @@ header p{
     width: 325px;
     font-weight: normal;
 }
+@media only screen and (max-width: 600px) {
+	header h1 {
+	text-align: center;	}
+  }
+  header p {
+	text-align: center;
+  }
 /* countdown */
 :root {
 	--color-grey-dark: #323031;
