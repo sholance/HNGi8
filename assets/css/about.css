@@ -109,6 +109,11 @@ height: 131px;
     height: 385.16px;
   }
 
+  .content-overlay {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+  }
+
   .content-overlay .fa {
       font-size: 24px;
   }
