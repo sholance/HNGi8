@@ -5,6 +5,13 @@
   overflow-x: hidden;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: #333333;
+}
+
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+color: #00AEFF;
+}
 p {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
