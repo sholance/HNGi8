@@ -28,7 +28,6 @@ header p{
   .countdown-wrapper {
 	padding: 2rem 0;
 	text-align: center;
-	width: 75%;
 	color: (--var-color-grey-dark);
   }
   #countdown {
