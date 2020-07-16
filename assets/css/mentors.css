@@ -376,10 +376,10 @@ img.hover-shadow {
 }
 
 .team-detail {
-  position: absolute;
+  position: fixed;
   width: calc(100% - 100px);
   right: 80px;
-  top: 50%;
+  top: 0;
   height: 100%;
   color: grey;
   transition: 0.15s;
@@ -387,6 +387,7 @@ img.hover-shadow {
   visibility: hidden;
   box-sizing: border-box;
   background: #084482;
+  z-index: 99;
 }
 .team-detail-bio-content p {
   margin-bottom: 15px;

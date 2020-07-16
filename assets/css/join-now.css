@@ -14,9 +14,6 @@ header p{
     width: 365px;
     font-weight: normal;
 }
-section {
-    width: 100%
-}
 #success_message { 
     display: none;
 }
