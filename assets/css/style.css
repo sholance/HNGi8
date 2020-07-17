@@ -56,103 +56,32 @@ section h2 {
 
 /* navbar */
 
-#mainNav {
-    border-color: rgba(34, 34, 34, 0.05);
-    background-color: white;
-    transition: all .35s;
-    font-family: 'Lato';
-    font-weight: normal;
-    letter-spacing: 1px;
-  }
-  
-  #mainNav .navbar-brand {
-    color: #00AEFF;
-    font-family: 'Lato';
-    font-weight: normal;
-    letter-spacing: 1px;
-  }
-  
-  
-  #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-    color: #00AEFF;
-  }
-  
-  #mainNav .navbar-toggler {
-    font-size: 12px;
-    padding: 8px 10px;
-    color: #222222;
-  }
-  
-  #mainNav .navbar-nav > li > a {
-    font-size: 0.8rem;
-    font-family: 'Lato';
-    letter-spacing: 1px;
-    text-transform: capitalize;
-    margin-left: 25px;
-  }
-  
-  #mainNav .navbar-nav > li > a.active {
-    color: #00AEFF !important;
-    background-color: transparent;
-  }
-  
-  #mainNav .navbar-nav > li > a.active:hover {
-    background-color: transparent;
-  }
-  
-  #mainNav .navbar-nav > li > a,
-  #mainNav .navbar-nav > li > a:focus {
-    color: #222222;
-  }
-  
-  #mainNav .navbar-nav > li > a:hover,
-  #mainNav .navbar-nav > li > a:focus:hover {
-    color: #00AEFF;
-  }
-  
-  @media (min-width: 992px) {
-    #mainNav {
-      border-color: transparent;
-      background-color: white;
-    }
-    #mainNav .navbar-brand {
-      color: fade(black, 70%);
-    }
-    #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-      color: black;
-    }
-    #mainNav .navbar-nav > li > a,
-    #mainNav .navbar-nav > li > a:focus {
-      color: #696A6A;
-    }
-    #mainNav .navbar-nav > li > a:hover,
-    #mainNav .navbar-nav > li > a:focus:hover {
-      color: #00AEFF;
-    }
-    #mainNav .join-button{
-        color: white !important;
-        background-color: #00AEFF;
-    }
-    #mainNav.navbar-shrink {
-      border-color: rgba(34, 34, 34, 0.1);
-      background-color: white;
-    }
-    #mainNav.navbar-shrink .navbar-brand {
-      color: #222222;
-    }
-    #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-      color: #00AEFF;
-    }
-    #mainNav.navbar-shrink .navbar-nav > li > a,
-    #mainNav.navbar-shrink .navbar-nav > li > a:focus {
-      color: #222222;
-    }
-    #mainNav.navbar-shrink .navbar-nav > li > a:hover,
-    #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-      color: #00AEFF;
-    }
-  }
+button {
+  outline: none;
+}
 
+
+.navbar-light .navbar-nav .nav-link {
+  color: #333333;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #00aeff;
+}
+
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+  color: #00aeff;
+}
+.header-btn {
+  background-color: #00aeff;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    padding-left: 5rem !important;
+  }
+}
 /*footer */
 .footer {
     background-color: #24116a;

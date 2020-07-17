@@ -35,7 +35,7 @@ header.masthead {
     max-width: 500px;
     margin-bottom: 100px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 40px;
   }
   header.masthead .header-content .track-button {
     visibility: hidden;
@@ -67,8 +67,8 @@ header.masthead {
   
   @media (min-width: 992px) {
     header.masthead {
-      height: 100vh;
-      min-height: 775px;
+      height: 80vh;
+      min-height: 630px;
       padding-top: 0;
       padding-bottom: 0;
     }
@@ -104,7 +104,7 @@ header.masthead {
     header.masthead {
         position: relative;
         width: 100%;
-        padding-top: 40px;
+        padding-top: 0px;
         padding-bottom: 100px;
         color: white;
         background:  #24116A;
