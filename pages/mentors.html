@@ -66,7 +66,11 @@
             <div class="">
               <div class="container">
                 <img src="../assets/images/header-bg.png" class="ment-img" ">
-                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 </header>
 
 <section class="">
@@ -95,13 +99,14 @@
             <div class="team-detail-header">
               <h2 class="person-title">{{selectedPersonData.name}}</h2>
               <p class="person-desc">{{selectedPersonData.title}}</p>
-                         </div>
-            <div class="team-detail-bio-content" v-html="selectedPersonData.bio">
               <div class="social">
-                <a :href="selectedPersonData.social.facebook" target="_blank" class="ion-social-facebook"></a>
                 <a :href="selectedPersonData.social.twitter" target="_blank" class="ion-social-twitter"></a>
                 <a href="selectedPersonData.social.linkedin" target="_blank" class="ion-social-linkedin"></a>
+                <a href="selectedPersonData.social.dribble" target="_blank" class="ion-social-dribble"></a>
+                <a href="selectedPersonData.social.behance" target="_blank" class="ion-social-behance"></a>
               </div>
+                      </div>
+            <div class="team-detail-bio-content" v-html="selectedPersonData.bio">
             </div>
           </div>
         </div>

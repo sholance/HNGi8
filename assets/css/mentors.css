@@ -302,9 +302,9 @@ img.hover-shadow {
   width: 100%;
 }
 .person-title {
-  color: white;
   font-size: 2em;
-  color: #084482;
+  color: #00AEFF;
+  font-weight: bold;
 }
 .person-desc {
   color: rgba(255, 255, 255, 0.2);
@@ -503,7 +503,7 @@ img.hover-shadow {
 }
 
 .social {
-  margin-top: 15px;
+  margin-top: 8px;
 }
 .social a {
   color: #00AEFF;
