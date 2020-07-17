@@ -1,0 +1,191 @@
+header{
+    background: none !important;
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 500000;
+    top:0;
+    box-shadow: 0 2px 4px -2px rgba(0,0,0,.3);
+}
+
+header nav a{
+    font-family: var(--nav-font);
+    font-size: 16px;
+    margin: 15px 0px !important;
+}
+
+header .company_name img{
+    width: 150px !important;
+}
+
+.maincolor{
+    color: var(--bright-color) !important;
+}
+
+.linkcolor{
+    color: var(--link-color) !important;
+}
+
+header .navbar{
+    padding: 15px 0 !important;
+}
+
+header .active{
+    opacity: .4 !important;
+}
+
+.increasenav{
+    padding: 0px 0 50px !important;
+}
+
+header .header_sub{
+    background: var(--bright-color);
+}
+
+header nav button{
+    height: 40px ;
+}
+
+header .nav_btn{
+    width: 60px !important;
+}
+
+header .inside_btn_nav_qobi{
+    margin: 30px 0 !important;
+}
+
+nav button img{
+    width: 20px;
+}
+
+.hide{
+    display: none;
+}
+
+.menuDown{
+    animation: comedown .4s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.menuUp{
+    animation: riseup .4s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+footer{
+    background: var(--secondary-color) !important;
+}
+
+footer .icon_container{
+    border: 0px solid rgb(256,256,256,.2);
+    width: 32px !important;
+    height: 32px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50% !important;
+    margin: 0 !important;
+}
+
+
+footer .icon_container i{
+    color: var(--main-color);
+}
+
+footer h3{
+    font-family: var(--nav-font) !important;
+    font-size: 24px !important;
+    color: var(--bright-color) !important;
+}
+
+footer a,footer p,footer label{
+    font-family: var(--nav-font) !important;
+    font-size: 16px !important;
+    color: var(--bright-color) !important;
+}
+
+footer .contact{
+    padding: 0px !important;
+}
+
+footer input{
+    width: 183px !important;
+    height: 57px !important;
+    border-radius: 5px 0px 0px 5px !important;
+}
+
+footer button{
+    width: 76px !important;
+    height: 57px !important;
+    border-radius: 0px 5px 5px 0px !important;
+    font-size: 30px !important;
+    font-weight: 600px !important;
+}
+
+footer .content{
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+@keyframes comedown{
+    0%{
+        /* transform:  */
+        /* translateY(-100%); */
+        opacity: 0;
+    }
+    100%{
+        /* transform: translateY(0); */
+        opacity: 1;
+    }
+}
+@keyframes riseup{
+    0%{
+        /* transform: translateY(0); */
+        opacity: 1;
+    }
+    100%{
+        /* transform: translateY(-100%); */
+        opacity: 0;
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    header .navbar{
+        padding: 5px 0 !important;
+    }
+    header .company_name img{
+        width: 200px !important;
+    }
+}
+
+
+@media only screen and (min-width: 992px){
+    header .outside{
+        display: none;
+    }
+
+    footer .contact{
+        padding-right: 50px !important;
+    }
+ 
+    header nav a{
+        margin: 0 !important;
+        margin-right: 25px !important;
+    }
+
+    header nav button{
+        margin: 0px !important;
+    }
+
+    footer .content{
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+        text-align: left !important;
+    }
+
+}
+
+@media only screen and (min-width: 1200px){
+
+}
