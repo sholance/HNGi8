@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+button {
+  outline: none;
+}
+
+.modal-content {
+  background: transparent;
+  border: 0;
+  outline: none;
+}
+
+.certificate-text {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.header-btn {
+  background-color: #00aeff;
+  border-radius: 5px;
+}
+
+.header-btn.btn-submit {
+  font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #333333;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #00aeff;
+}
+
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+  color: #00aeff;
+}
+
+.certificate {
+  color: #00aeff;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.cert-content {
+  color: #00aeff;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.box {
+  background: url("../images/Rectangle\ 9.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content-overlay {
+  background: rgba(36, 17, 106, 0.87);
+}
+
+.content-overlay .input-group {
+  width: 386px;
+}
+
+.footer {
+  background-color: #24116a;
+  color: white;
+}
+
+.footer h5 {
+  font-family: "Lato", sans-serif;
+}
+
+.footer ul li a:hover {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.input-group .form-control {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.input-group-append button {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    padding-left: 5rem !important;
+  }
+
+  .box {
+    background: url("../images/Rectangle\ 7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .cert-content {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .sponsors {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+  }
+
+  .certified-doc {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+  }
+}
