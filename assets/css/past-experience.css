@@ -1,0 +1,311 @@
+* {
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html,
+body {
+  background-color: white;
+  color: black;
+  margin: 0;
+  font-family: "Open Sans";
+  font-size: 16px;
+  transition: 1s;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato";
+}
+
+.text-center {
+  text-align: center;
+}
+
+#bold {
+  font-weight: 600;
+  font-size: 21px;
+  margin-block-end: -20px;
+  margin-block-start: 45px;
+}
+
+#stained {
+  color: #00aeff;
+}
+
+.header {
+  padding: 0;
+}
+
+.header-menu {
+  padding-right: 10%;
+}
+
+.header-menu i {
+  color: #00aeff;
+  border: 0.5px solid #00aeff;
+  padding: 5px;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.close-btn {
+  position: absolute;
+  right: 10%;
+  top: 15%;
+}
+
+.fa-plus {
+  transform: rotate(45deg);
+  transition: 0.5s;
+}
+
+.fa-plus:hover {
+  transform: rotate(360deg);
+}
+
+.header-items,
+.dropnav {
+  padding: 33.5px;
+}
+
+.header-items a,
+.dropnav a {
+  color: #333333;
+  text-decoration: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  animation-name: drop;
+  animation-duration: 1s;
+  -webkit-animation-name: drop;
+  -webkit-animation-duration: 1s;
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes drop {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.header-items a:hover,
+.dropnav a:hover {
+  background-color: #00aeff;
+  color: white;
+}
+
+.active {
+  background-color: #00aeff;
+  color: white !important;
+}
+
+.active:hover {
+  padding: 6px;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.past-in h1 {
+  margin-block-end: 0;
+}
+
+.past-in p {
+  margin-block-start: 5px;
+}
+
+.row,
+.row-spe {
+  padding: 0;
+}
+
+.main-contn {
+  background: #f8f8f8;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.31);
+}
+
+.main-contn-img {
+  display: flex;
+  justify-content: center;
+}
+
+.main-contn-img img {
+  width: 110px;
+  height: 110px;
+}
+
+.footer {
+  background: #24116a;
+  padding: 0;
+}
+
+.footer-item {
+  text-align: left;
+}
+
+.footer-item h3 {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  margin-block-end: 30px;
+}
+
+.footer-item a {
+  font-size: 16px;
+  color: white;
+  margin-block-end: 30px;
+  line-height: 22px;
+  transition: 0.5s;
+}
+
+.footer-item a:hover {
+  color: rgba(255, 255, 255, 0.479);
+}
+
+.socialmedia h3 {
+  text-align: center;
+}
+
+.socialmedia {
+  text-align: center;
+  margin-left: 20px;
+}
+
+.socialmedia a {
+  font-size: 30px;
+  color: #00aeff;
+}
+
+.socialmedia a:hover {
+  color: #00aeff96;
+}
+
+.copyright {
+  color: white;
+  padding-top: 60px;
+}
+
+.footer-item input[type="text"] {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  padding: 10px;
+  width: 79%;
+}
+
+.footer-item button[type="submit"] {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: -4px;
+  border: none;
+  padding: 10px;
+  background-color: #00aeff;
+  color: white;
+  width: 20%;
+}
+
+.main {
+  padding: 0;
+  padding-bottom: 80px;
+}
+
+.img-txt {
+  padding-top: 145px;
+}
+
+.text-says {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  line-height: 50px;
+  font-size: 42px;
+}
+
+.page-says {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+}
+
+.donate {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 29px;
+}
+
+.put-in {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.19);
+}
+
+.sub-don {
+  height: 50px;
+  width: 100%;
+  margin-block-start: 30px;
+  background-color: #00aeff;
+  border: none;
+  color: white;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 29px;
+  cursor: pointer;
+}
+
+.sub-don:hover {
+  background-color: #19a3e4;
+}
+
+.flutt {
+  text-align: center;
+}
+
+.take-test {
+  color: #00aeff;
+}
+
+.page-cotn-img-wide {
+  padding: 30px;
+}
+
+.page-contn-2 {
+  padding-bottom: 80px;
+}
+
+.next {
+  padding: 0px;
+}

@@ -1,17 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Skills Test</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="../assets/css/donate.css">
-</head>
-<body>
-  
-  <!-- JS, Popper.js, and jQuery -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate</title>
+    <link rel="stylesheet" href="../assets/css/donate.css" />
+    <link rel="stylesheet" href="../assets/css/past-experience.css" />
+    <link rel="stylesheet" href="../assets/css/skill.css" />
+    <link rel="stylesheet" href="../assets/css/mediaquery.css" />
+    <link rel="stylesheet" href="../assets/css/font-awesome.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="pagewidth">
+      <div class="header col-12 col-s-12">
+        <div class="header-logo col-5 col-s-10">
+          <a href="past-intern.html">
+            <img src="../assets/images/image 2.png" alt="" />
+          </a>
+        </div>
+        <div class="header-menu text-center col-s-2">
+          <a onclick="openNav()"><i class="fa fa-bars"></i></a>
+        </div>
+        <div class="dropnav col-s-12" id="dropNav" style="display: none;">
+          <div class="dropnav-items text-center col-s-12">
+            <a class="close-btn" onclick="closeNav()"
+              ><i class="fa fa-plus"></i
+            ></a>
+            <a href="">Home</a><br /><br />
+            <a href="about.html">About</a><br /><br />
+            <a href="HNGi7.html">HNGi7</a><br /><br />
+            <a href="mentors.html">Mentors</a><br /><br />
+            <a href="contact.html">Contact</a><br /><br />
+            <a class="active" href="">Join HNGi8</a>
+          </div>
+        </div>
+        <div class="header-items col-7 col-s-12">
+          <span
+            ><a href="">Home</a>
+            <a href="">About</a>
+            <a href="">HNGi7</a>
+            <a href="">Mentors</a>
+            <a href="">Contact</a>
+            <a class="active" href="">Join HNGi8</a></span
+          >
+        </div>
+      </div>
+
+      <div class="past-in text-center col-12 col-s-12">
+        <h1 id="stained">Donate to HNG</h1>
+      </div>
+
+      <div class="page-contn col-12 col-s-12">
+        <div class="page-contn-img-small text-center col-s-12">
+          <img src="../assets/images/image 10.png" alt="" width="100%" />
+        </div>
+        <div class="don-here text-center col-6 col-s-12">
+          <h3 class="text-says">What Your Donation does</h3>
+          <p class="page-says">
+            Your donation helps us keep finding and nurturing talents. Your
+            supports makes an intern’s journey easier and faster. It goes toward
+            providing adequate resources such as Laptop, Internet, electricity
+            e.t.c
+          </p>
+        </div>
+        <div class="page-contn-img-wide text-center col-6 col-s-12">
+          <img src="../assets/images/image 10.png" alt="" width="100%" />
+        </div>
+      </div>
+
+      <div class="page-contn-2 col-12 col-s-12">
+        <div class="text-centre col-6 col-s-12">
+          <img src="../assets/images/image 11.png" alt="" width="100%" />
+        </div>
+        <div
+          class="page-cotn-img-wide text-centre col-6 col-s-12"
+          style="
+            background-color: #f8f8f8;
+            box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+          "
+        >
+          <h1 class="donate text-center">Make a Donation</h1>
+          <br />
+          <form>
+            <h3>First Name</h3>
+            <input type="text" class="put-in" name="first_name" /><br /><br />
+            <h3>Last Name</h3>
+            <input type="text" class="put-in" name="last_name" /><br /><br />
+            <h3>Email Address</h3>
+            <input type="email" class="put-in" name="email" /><br /><br />
+            <h3>Amount</h3>
+            <div style="width: 100%;">
+              <select
+                class="col-2 col-s-4"
+                name="currency"
+                id=""
+                style="
+                  padding: 9px;
+                  border: 1px solid rgba(0, 0, 0, 0.19);
+                  border-right: none;
+                  background: transparent;
+                "
+              >
+                <option value="NGN">NGN</option>
+                <option value="USD">USD</option>
+              </select>
+              <input
+                type="number"
+                name="amount"
+                class="col-10 col-s-8"
+                style="padding: 10px; border: 1px solid rgba(0, 0, 0, 0.19);"
+              />
+            </div>
+            <br /><br />
+            <button type="submit" class="sub-don">Donate</button><br /><br />
+          </form>
+          <br />
+          <div class="list-group" style="margin-top: 20px; text-align: center;">
+            <a
+              href=""
+              class="list-items"
+              style="color: black; font-weight: 600;"
+              ><i class="fas fa-lock"></i>&nbsp; Powered By Flutterwave</a
+            ><br />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer col-12 col-s-12">
+      <div class="footer-inner text-center col-12 col-s-12">
+        <div class="footer-item col-3 col-s-12">
+          <h3>Quick links</h3>
+          <a href="">About HNG</a><br /><br />
+          <a href="donate.html">Donate to HNG</a><br /><br />
+          <a href="">FAQ</a><br /><br />
+          <a href="index.html">Past Intern Experience</a><br /><br />
+          <a href="">Request Certificate</a><br /><br />
+          <a href="skill.html">Skill</a><br /><br />
+        </div>
+        <div class="footer-item col-3 col-s-12">
+          <h3>Contact Us</h3>
+          <a href="">3 Birrel Avenue, Sabo, Yaba, Lagos State</a><br /><br />
+          <a href="">hello@hng.tech</a>
+        </div>
+        <div class="footer-item col-2 col-s-12">
+          <h3 class="text-center">Follow Us</h3>
+          <div class="socialmedia text-center">
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div class="footer-item newsletter-div col-4 col-s-12">
+          <h3>Newsletter</h3>
+          <a href="">Subscribe to our newsletter</a><br /><br />
+          <form action="">
+            <input type="text" placeholder="Enter email.." />
+            <button type="submit" class="btn">
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-inner text-center copyright col-12 col-s-12">
+        <p>© 2020, HNG Internship. All rights reserved.</p>
+      </div>
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("dropNav").style.display = "block";
+      }
+
+      function closeNav() {
+        document.getElementById("dropNav").style.display = "none";
+      }
+
+      function nextCurrency() {
+        document.getElementById("dollar").style.display = "block";
+        document.getElementById("naira").style.display = "none";
+      }
+
+      function prevCurrency() {
+        document.getElementById("dollar").style.display = "none";
+        document.getElementById("naira").style.display = "block";
+      }
+    </script>
+  </body>
 </html>
