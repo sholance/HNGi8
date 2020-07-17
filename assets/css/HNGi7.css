@@ -48,17 +48,7 @@ header.masthead {
     border-radius: 3px;
   }
 
-  @keyframes slideInFromLeft {
-    0% {
-      transform: translateX(-100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  
+
   @media (min-width: 992px) {
     header.masthead {
       height: 100vh;
@@ -170,7 +160,10 @@ font-weight: bold;
   .spon {
     width: 100%;
   }
+  
 }
+
+
 .blue-button{
   background-color: #00aeff;
    width: 125px;

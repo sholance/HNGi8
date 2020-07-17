@@ -73,6 +73,9 @@ header p{
   #countdown {
 	  font-size: 1.5rem;
   }
+  header {
+    height: 500px ;
+  }
   }
 
 .f-container {

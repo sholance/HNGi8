@@ -31,6 +31,7 @@ header.masthead {
 }
   
   header.masthead .header-content {
+    animation: 2s ease-out 2s slideInFromLeft;
     max-width: 500px;
     margin-bottom: 100px;
     text-align: center;
@@ -207,10 +208,7 @@ img.hover-shadow {
     width: 100%;
   }
   header {
-    height: 580px;
-  }
-  .countdown-wrapper {
-    box-sizing: initial;
+    height: 400px;
   }
 }
 
@@ -240,7 +238,6 @@ img.hover-shadow {
     visibility: hidden !important;
     display: none;
   }
-
 
 }
 
