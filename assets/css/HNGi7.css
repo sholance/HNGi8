@@ -159,3 +159,14 @@ font-weight: bold;
 .header-btn {
   background-color: #00aeff; width: 125px; height: 40px;
 }
+@media only screen and (max-width: 43.75em) {
+  .talk-content {
+    width: 100%;
+    padding: 0 20px;
+    height: 120%;
+    padding-top: 10px;
+  }
+  .spon {
+    width: 100%;
+  }
+}
