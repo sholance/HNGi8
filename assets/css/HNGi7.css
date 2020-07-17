@@ -171,3 +171,8 @@ font-weight: bold;
     width: 100%;
   }
 }
+.blue-button{
+  background-color: #00aeff;
+   width: 125px;
+    height: 40px;
+}
