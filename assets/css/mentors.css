@@ -41,7 +41,7 @@ header.masthead {
     visibility: hidden;
   }
   header.masthead .no-desktop {
-    visibility: hidden;
+    visibility: visible;
   }
  
   header.masthead .device-container {
@@ -132,7 +132,7 @@ header.masthead {
       height: 100%;
     }
     .no-desktop {
-      visibility: hidden;
+      visibility: visible;
     }
 
   }
@@ -202,6 +202,7 @@ img.hover-shadow {
   transition: 0.3s;
 }
 
+
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -209,6 +210,7 @@ img.hover-shadow {
   .ment-img {
     width: 100%;
   }
+
   .img-mobile{
     visibility: visible !important;
   }
@@ -238,6 +240,10 @@ img.hover-shadow {
   .column {
     flex: 50%;
     max-width: 50%;
+  }
+  .no-desktop {
+    visibility: hidden !important;
+    display: none;
   }
 }
 
