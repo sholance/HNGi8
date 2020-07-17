@@ -76,6 +76,7 @@ header.masthead {
     header.masthead .header-content .hng-p {
         color: white;
         width: 464px;
+        font-weight: 200;
     }      
     header.masthead .header-content {
       margin-bottom: 0;
@@ -83,7 +84,7 @@ header.masthead {
     }
     header.masthead .header-content h1 {
       font-size: 50px;
-    }
+          }
     header.masthead .hng-container {
       max-width: 700px;
       margin-top: 00px;
@@ -128,6 +129,8 @@ header.masthead {
 
 /* gallery */
 
-,gallery img {
-    margin-bottom: 20px;
+.hng-gallery-h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00AEFF;
 }
