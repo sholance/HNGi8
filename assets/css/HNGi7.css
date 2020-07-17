@@ -140,7 +140,7 @@ header.masthead {
 }
 .hng-p-w {
   color:#fff;
-  font-weight: normal;
+  font-weight: 200;
 }
 .talk-content {
   background: #24116A;
@@ -155,4 +155,7 @@ font-weight: bold;
 }
 .talk {
   padding-top: 0px;
+}
+.header-btn {
+  background-color: #00aeff; width: 125px; height: 40px;
 }
