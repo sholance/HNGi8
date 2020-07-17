@@ -207,7 +207,10 @@ img.hover-shadow {
     width: 100%;
   }
   header {
-    height: 550px;
+    height: 580px;
+  }
+  .countdown-wrapper {
+    box-sizing: initial;
   }
 }
 
@@ -237,6 +240,7 @@ img.hover-shadow {
     visibility: hidden !important;
     display: none;
   }
+
 
 }
 
