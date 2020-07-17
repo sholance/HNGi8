@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+
+.header-btn {
+  background-color: #00aeff;
+  border-radius: 5px;
+}
+
+.header-btn.btn-submit {
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #333333;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #00AEFF;
+}
+
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+color: #00AEFF;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.contact-question {
+  color: #24116a;
+}
+
+.contact {
+  font-family: "Lato", sans-serif;
+  color: #00aeff;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.form-group label {
+    color: #263238;
+    font-weight: 600;
+}
+
+
+.footer {
+    background-color: #24116a;
+    color: white;
+}
+
+.footer h5 {
+    font-family: 'Lato', sans-serif;
+}
+
+
+.footer ul li a:hover {
+    color: rgba(0,0,0,.5);
+    text-decoration: none;
+}
+
+.input-group .form-control {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.input-group-append button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    padding-left: 5rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .contact {
+    font-size: 48px;
+    line-height: 67px;
+  }
+
+  .contact-address {
+    padding-left: 5rem !important;
+  }
+
+  .contact-form {
+    padding-left: 5rem !important;
+  }
+}
