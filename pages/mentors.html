@@ -95,13 +95,13 @@
             <div class="team-detail-header">
               <h2 class="person-title">{{selectedPersonData.name}}</h2>
               <p class="person-desc">{{selectedPersonData.title}}</p>
+                         </div>
+            <div class="team-detail-bio-content" v-html="selectedPersonData.bio">
               <div class="social">
                 <a :href="selectedPersonData.social.facebook" target="_blank" class="ion-social-facebook"></a>
                 <a :href="selectedPersonData.social.twitter" target="_blank" class="ion-social-twitter"></a>
                 <a href="selectedPersonData.social.linkedin" target="_blank" class="ion-social-linkedin"></a>
               </div>
-            </div>
-            <div class="team-detail-bio-content" v-html="selectedPersonData.bio">
             </div>
           </div>
         </div>

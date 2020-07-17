@@ -128,3 +128,6 @@ header.masthead {
 
 /* gallery */
 
+,gallery img {
+    margin-bottom: 20px;
+}

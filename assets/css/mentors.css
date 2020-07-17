@@ -331,7 +331,7 @@ img.hover-shadow {
   left: 0;
   bottom: 0;
   width: 100%;
-  background: #084482;
+  background: #fff;
   content: "";
   height: 0px;
   transition: 0.45s;
@@ -386,8 +386,12 @@ img.hover-shadow {
   opacity: 0;
   visibility: hidden;
   box-sizing: border-box;
-  background: #084482;
+  background: #fff;
   z-index: 99;
+}
+.team-detail-bio {
+  padding-left: 5px;
+
 }
 .team-detail-bio-content p {
   margin-bottom: 15px;
@@ -456,10 +460,10 @@ img.hover-shadow {
 }
 .team-detail-right .person-title {
   font-size: 2.2em;
-  color: #fff;
+  color: #084482;
 }
 .team-detail-right .person-desc {
-  color: white;
+  color: #084482;
 }
 
 .container-ready .team-detail {
@@ -501,7 +505,7 @@ img.hover-shadow {
   margin-top: 15px;
 }
 .social a {
-  color: #fff;
+  color: #084482;
   font-size: 20px;
   margin-right: 8px;
 }
