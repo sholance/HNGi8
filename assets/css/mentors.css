@@ -217,6 +217,9 @@ img.hover-shadow {
   .ment-container {
     width: 100%;
   }
+  header {
+    height: 350px;
+  }
 }
 
 .row {
@@ -245,6 +248,7 @@ img.hover-shadow {
     visibility: hidden !important;
     display: none;
   }
+
 }
 
 @media (max-width: 600px) {
@@ -252,6 +256,7 @@ img.hover-shadow {
     flex: 100%;
     max-width: 100%;
   }
+  
 }
 
 
