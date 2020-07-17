@@ -1,0 +1,212 @@
+header {
+    height: 385px;
+    background: #24116A; 
+    color: white;
+    padding-top: 100px;
+}
+header h1 {
+    color: white;
+    font-weight: bold;
+}
+header p{
+    color: white;
+    font-size: 18px;
+    width: 325px;
+	font-weight: normal;
+}
+@media only screen and (max-width: 600px) {
+	header h1 {
+	text-align: center;	}
+  }
+  header p {
+	text-align: center;
+  }
+/* countdown */
+:root {
+	--color-grey-dark: #323031;
+	--color-grey-light: #D9DCD6;
+	--color-primary: #0D5C63;
+  }
+  
+
+  .countdown-wrapper {
+	padding: 2rem 0;
+	text-align: center;
+	color: (--var-color-grey-dark);
+  }
+  #countdown {
+	font-size: 0.5rem;
+	display: flex;
+	justify-content: space-around; /* IE 11 */
+	width: 100%;
+	margin: auto;
+  }
+  
+  #countdown > p {
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 1rem;
+  }
+  #days, #hours, #minutes, #seconds {
+	font-size: 1.7rem;
+	margin-bottom: 0.2rem;
+  }
+  #days-text, #hours-text, #minutes-text, #seconds-text {
+	color: #fff;
+	text-transform: capitalize;
+	font-weight: 100;
+  }
+  
+  /* Media Queries */
+  @media only screen and (max-width: 64em) { /* 1024px */
+  #countdown {
+	font-size: 1.5rem;
+  }
+  }
+  @media only screen and (max-width: 43.75em) { /* 700px */
+  #countdown p {
+	flex: 0 0 0%;
+  }
+  #countdown {
+	  font-size: 1.5rem;
+  }
+  }
+
+.f-container {
+	max-width: 550px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: #084482;
+	display: block;
+	font-size: 30px;
+	font-weight: bold;
+  text-align: center;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+.countdown {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.countdown span {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+    margin-left: 0.8rem;
+}
+
+.countdown span:first-of-type {
+    margin-left: 0;
+}
+.reg-text {
+	text-align: center;
+	font-size: 1.3rem;
+	margin: auto;
+	margin-bottom: .7rem;
+}
+.countdown-circles {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.countdown-circles span {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-circles span:first-of-type {
+    margin-left: 0;
+}
+
