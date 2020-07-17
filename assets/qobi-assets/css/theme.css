@@ -1,0 +1,36 @@
+@font-face{
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/Roboto-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'RobotoBold';
+    src: url('../fonts/roboto/Roboto-Bold.ttf');
+}
+
+@font-face{
+    font-family: 'OpenSans';
+    src: url('../fonts/opensans/OpenSans-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'OpenSansSemi';
+    src: url('../fonts/opensans/OpenSans-SemiBold.ttf');
+}
+
+:root{
+    --header-font: 'RobotoBold';
+    --text-font: 'Roboto';
+    --button-font: 'OpenSansSemi';
+    --nav-font:'OpenSans';
+    --main-color : #00AEFF;
+    --year-color : #0091D4;
+    --secondary-color : #24116a;
+    --link-color : #084482;
+    --light-color : #F4F4F4;
+    --bright-color : #fff;
+    --dark-color : #000;
+    --place-holder: #c4c4c4;
+    --input-stroke: #E5E5E5;
+    --box-shadow: 0 2px 4px -2px rgba(0,0,0,.3);
+}
