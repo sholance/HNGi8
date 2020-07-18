@@ -3,6 +3,8 @@ html,
 body {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
+
 }
 
 body {
@@ -89,9 +91,11 @@ button {
   }
   .footer li {
     list-style: none;
+    font-weight: 200;
   }
   .footer h5 {
     font-family: 'Lato', sans-serif;
+    font-weight: bold;
   }
   
   
