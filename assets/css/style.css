@@ -87,7 +87,9 @@ button {
     background-color: #24116a;
     color: white;
   }
-  
+  .footer li {
+    list-style: none;
+  }
   .footer h5 {
     font-family: 'Lato', sans-serif;
   }
